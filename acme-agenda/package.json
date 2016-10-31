@@ -1,5 +1,5 @@
 {
-  "name": "job-board",
+  "name": "acme-agenda",
   "version": "1.0.0",
   "description": "My boilerplate for creating web projects with Gulp.js",
   "main": "dist/js/app.min.js",

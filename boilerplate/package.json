@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lorrandavid/boilerplate.git"
+    "url": "https://github.com/lorrandavid/boilerplate"
   },
   "author": "Lorran David",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lorrandavid/tcc/issues"
+    "url": "https://github.com/lorrandavid/boilerplate/issues"
   },
   "devDependencies": {
     "gulp": "^3.9.1",

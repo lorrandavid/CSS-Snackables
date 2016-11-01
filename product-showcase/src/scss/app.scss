@@ -1,0 +1,143 @@
+// variables
+
+
+// core
+@import "core/normalize";
+@import "core/typography";
+
+// app
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-color: #3E6BE0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal{
+  width: 840px;
+  height: 510px;
+  background: #FFF;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.navtop{
+  height: 65px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+
+  &__brand{
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+  }
+
+  &__nav{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 3px;
+    margin-bottom: 0;
+  }
+
+  &__item{
+    display: inline-block;
+    margin-left: 25px;
+    position: relative;
+  }
+
+  &__link{
+    text-decoration: none;
+    color: #ccc;
+    transition: ease 0.12s;
+
+    &:hover{
+      color: #ddd;
+    }
+  }
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 80px;
+  height: 350px;
+
+  &__body{
+    margin-right: 80px;
+  }
+
+  &__title{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+
+  &__p{
+    letter-spacing: 0.5px;
+    line-height: 25px;
+  }
+
+  &__product{
+    position: relative;
+    height: 80%;
+
+    img{
+      height: 100%;
+    }
+
+    &--hidden{
+      display: none;
+    }
+  }
+}
+
+.navfooter{
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+
+  &__list{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 3px;
+    margin-bottom: 0;
+  }
+
+  &__item{
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+  }
+
+  &__link{
+    text-decoration: none;
+    color: #ccc;
+
+    &--active{
+      color: #222;
+
+      &:before{
+        position: absolute;
+        content: '';
+        top: 8px;
+        right: -2px;
+        height: 2px;
+        width: 25px;
+        background: #222;
+      }
+    }
+  }
+}

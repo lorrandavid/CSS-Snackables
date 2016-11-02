@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "product-showcase",
   "version": "1.0.0",
   "description": "My boilerplate for creating web projects with Gulp.js",
   "main": "dist/js/app.min.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lorrandavid/boilerplate"
+    "url": "https://github.com/lorrandavid/CSS-Snackables"
   },
   "author": "Lorran David",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lorrandavid/boilerplate/issues"
+    "url": "https://github.com/lorrandavid/CSS-Snackables/issues"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
